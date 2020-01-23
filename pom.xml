@@ -229,6 +229,11 @@ THE SOFTWARE.
           <version>2.7</version>
         </plugin>
         <plugin>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-maven-plugin</artifactId>
+            <version>1.9.9</version>
+        </plugin>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-dependency-plugin</artifactId>
         </plugin>
