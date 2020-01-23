@@ -229,9 +229,9 @@ THE SOFTWARE.
           <version>2.7</version>
         </plugin>
         <plugin>
-            <groupId>com.google.cloud.tools</groupId>
+            <groupId>com.google.appengine</groupId>
             <artifactId>appengine-maven-plugin</artifactId>
-            <version>1.0.0</version>
+            <version>1.9.9</version>
         </plugin>
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
