@@ -48,6 +48,11 @@ THE SOFTWARE.
   <dependencyManagement>
     <dependencies>
       <dependency>
+        <groupId>com.google.cloud</groupId>
+        <artifactId>google-cloud-storage</artifactId>
+        <version>1.22.0</version>
+      </dependency>
+      <dependency>
         <groupId>org.jenkins-ci.main</groupId>
         <artifactId>jenkins-bom</artifactId>
         <version>${project.version}</version>
@@ -201,6 +206,11 @@ THE SOFTWARE.
   <build>
     <finalName>jenkins</finalName>
     <plugins>
+      <plugin>
+            <groupId>com.google.cloud.tools</groupId>
+            <artifactId>appengine-maven-plugin</artifactId>
+            <version>1.0.0</version>
+      </plugin>
       <plugin>
         <artifactId>maven-war-plugin</artifactId>
         <!-- version specified in grandparent pom -->
