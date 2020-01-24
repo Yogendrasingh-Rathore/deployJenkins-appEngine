@@ -524,6 +524,7 @@ THE SOFTWARE.
       <id>metrics</id>
       <build>
         <plugins>
+          <!--
           <plugin>
             <groupId>com.github.spotbugs</groupId>
             <artifactId>spotbugs-maven-plugin</artifactId>
@@ -531,6 +532,7 @@ THE SOFTWARE.
               <threshold>High</threshold>
             </configuration>
           </plugin>
+          -->
         </plugins>
       </build>
     </profile>
